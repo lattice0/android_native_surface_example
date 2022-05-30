@@ -8,6 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 android_logger = "0.11"
+glium = "0.31"
 glutin = "0.28"
 jni = "0.19"
 log = "0.4"
@@ -18,3 +19,4 @@ gl_generator = "0.14"
 
 [patch.crates-io]
 glutin = { git = "https://github.com/MarijnS95/glutin", rev = "c959f01" }
+glium = { git = "https://github.com/MarijnS95/glium", rev = "bb780d6" }
