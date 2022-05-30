@@ -11,7 +11,7 @@ android_logger = "0.11"
 glutin = "0.28"
 jni = "0.19"
 log = "0.4"
-ndk = { git = "https://github.com/rust-windowing/android-ndk-rs", rev = "7e33384" }
+ndk = { git = "https://github.com/lattice0/android-ndk-rs", rev = "4dd07624a1c658373b7ea7b1b9a46ae72a9f79ff", features = ["api-level-28"] }
 
 [build-dependencies]
 gl_generator = "0.14"
