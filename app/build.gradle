@@ -29,7 +29,7 @@ android {
         jvmTarget = '1.8'
     }
 
-    ndkVersion "24.0.7856742"
+    ndkVersion "24.0.8215888"
 }
 
 dependencies {
@@ -41,7 +41,7 @@ apply plugin: 'org.mozilla.rust-android-gradle.rust-android'
 cargo {
     module = "../android_native_surface"
     libname = "android_native_surface"
-    targets = ["arm64"]
+    targets = ["arm64", "x86_64"]
 }
 
 tasks.whenTaskAdded { task ->
