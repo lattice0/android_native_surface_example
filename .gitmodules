@@ -1,0 +1,3 @@
+[submodule "glium"]
+	path = glium
+	url = https://github.com/lattice0/glium
